@@ -8,7 +8,16 @@
 <body>
     <form action="" method="POST" enctype="multipart/form-data">
         <label for="username">Username :</label>
-        <input type="text" name="username" id="username" placeholder="Username"> <br>
+        <input type="text" name="username" id="username" minlength="6" maxlength="15" placeholder="Username"> <br>
+
+        <label for="tel">Phone Number :</label>
+        <input type="tel" name="tel" id="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" placeholder="hey@gmail.com"> <br>
+
+        <input type="reset">
+        <input type="submit">
     </form>
 </body>
 </html>
