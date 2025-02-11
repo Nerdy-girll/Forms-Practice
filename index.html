@@ -4,37 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registration form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <form action="" method="POST" enctype="multipart/form-data">
-        <label for="username">Username :</label>
-        <input type="text" name="username" id="username" minlength="6" maxlength="15" placeholder="Username"> <br>
+<body> 
+    <div class="firstdiv">
+        <p>PLEASE FILL THIS FORM.</p>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <label for="username">Username :</label>
+            <input type="text" name="username" id="username" minlength="6" maxlength="15" placeholder="Username"> <br>
 
-        <label for="tel">Phone Number :</label>
-        <input type="tel" name="tel" id="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+            <label for="tel">Phone Number :</label>
+            <input type="tel" name="tel" id="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
 
-        <label for="email">Email :</label>
-        <input type="email" name="email" id="email" placeholder="hey@gmail.com"> <br>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="hey@gmail.com"> <br>
 
-        <label for="mr.">Title :</label> <br>
-        <label for="mr.">mr.</label>
-        <input type="radio" name="mr." id="title">
-        <label for="ms.">ms. :</label>
-        <input type="radio" name="ms." id="title">
-        <label for="phd.">phd. :</label>
-        <input type="radio" name="phd." id="title"> <br>
+            <label for="mr.">Title :</label> <br>
+            <label for="mr.">mr.</label>
+            <input type="radio" name="mr." id="title">
+            <label for="ms.">ms. :</label>
+            <input type="radio" name="ms." id="title">
+            <label for="phd.">phd. :</label>
+            <input type="radio" name="phd." id="title"> <br>
 
 
-        <label for="payment">Payment Method :</label>
-        <select name="payment" id="payment">
-            <option value="visa">visa</option>
-            <option value="mastercard">mastercard</option>
-            <option value="giftcard">giftcard</option>
-            <option value="m-pesa">m-pesa</option>
-        </select> <br>
+            <label for="payment">Payment Method :</label>
+            <select name="payment" id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+                <option value="m-pesa">m-pesa</option>
+            </select> <br>
 
-        <input type="reset">
-        <input type="submit">
-    </form>
+            <input class="mybuttons" type="reset">
+            <input class="submissionbtn" type="submit">
+        </form>
+    </div>
 </body>
 </html>
