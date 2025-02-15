@@ -2,6 +2,8 @@ input{
     margin-top: 10px;
     background-color: rgb(233, 229, 229);
     padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(141, 169, 180);
 }
 .mybuttons{
     padding: 8px;
@@ -25,6 +27,7 @@ input{
     padding-left: 20px;
     padding-bottom: 30px;
     background-color: lightgrey;
+    width: 450px;
 }
 p{
     text-decoration: underline rgb(65, 31, 31) 2px;
