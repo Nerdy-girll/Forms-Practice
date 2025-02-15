@@ -5,7 +5,7 @@ input{
     border-radius: 5px;
     border-color: rgb(141, 169, 180);
 }
-.mybuttons{
+.resetbtn{
     padding: 8px;
     font-size: large;
     background-color: black;
@@ -31,4 +31,7 @@ input{
 }
 p{
     text-decoration: underline rgb(65, 31, 31) 2px;
+}
+select{
+    padding: 5px;
 }
